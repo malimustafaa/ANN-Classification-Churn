@@ -23,12 +23,14 @@ This project implements a sentiment classification model using a Simple RNN on t
 - TensorFlow
 - NumPy
 
+  👤 Author
+malimustafaa
+
 ## 🔍 Example Code Snippet
 ```python
 model = Sequential()
 model.add(Embedding(max_features, 128, input_length=maxlen))
 model.add(SimpleRNN(128, activation='relu'))
 model.add(Dense(1, activation='sigmoid'))
-'''
-👤 Author
-malimustafaa
+
+
