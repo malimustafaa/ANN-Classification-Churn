@@ -23,7 +23,7 @@ This project implements a sentiment classification model using a Simple RNN on t
 - TensorFlow
 - NumPy
 
-##👤 Author
+## 👤 Author
 malimustafaa
 
 ## 🔍 Example Code Snippet
