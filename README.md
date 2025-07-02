@@ -29,5 +29,7 @@ model = Sequential()
 model.add(Embedding(max_features, 128, input_length=maxlen))
 model.add(SimpleRNN(128, activation='relu'))
 model.add(Dense(1, activation='sigmoid'))
+
+
 👤 Author
 malimustafaa
